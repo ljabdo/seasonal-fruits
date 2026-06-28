@@ -1,0 +1,2584 @@
+{
+  "source": {
+    "name": "Seasonal Produce List by Region",
+    "publisher": "Administration for Community Living (ACL) / NANASP",
+    "url": "https://acl.gov/sites/default/files/nutrition/SeasonalProduceChartByRegion.pdf",
+    "underlying_sources": [
+      "Farmer's Almanac",
+      "Alaska Grown - Seasonal Produce Chart",
+      "Hawaii Agricultural and Food Products Directory - Hawaii Seasonality Chart"
+    ]
+  },
+  "regions": {
+    "northwest": {
+      "label": "Northwest",
+      "states": [
+        "WA",
+        "OR",
+        "ID"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Apricots",
+            "type": "fruit"
+          },
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Blackberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Blueberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Boysenberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cherries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Gooseberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Nectarines",
+            "type": "fruit"
+          },
+          {
+            "name": "Peaches",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Figs",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Leeks",
+            "type": "vegetable"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Pears",
+            "type": "fruit"
+          },
+          {
+            "name": "Plums",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkins and gourds",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rutabagas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Winter squash",
+            "type": "vegetable"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Leeks",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rutabagas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Winter squash",
+            "type": "vegetable"
+          }
+        ]
+      }
+    },
+    "southwest": {
+      "label": "Southwest",
+      "states": [
+        "CA",
+        "NV",
+        "AZ",
+        "UT"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Leeks",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Mandarins",
+            "type": "fruit"
+          },
+          {
+            "name": "Oranges",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Apricots",
+            "type": "fruit"
+          },
+          {
+            "name": "Artichokes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Blackberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Blueberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Boysenberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cherries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Figs",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Nectarines",
+            "type": "fruit"
+          },
+          {
+            "name": "Okra",
+            "type": "fruit"
+          },
+          {
+            "name": "Peaches",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Plums (late)",
+            "type": "fruit"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer & Winter squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Almonds",
+            "type": "fruit"
+          },
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Artichokes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Dates",
+            "type": "fruit"
+          },
+          {
+            "name": "Figs",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Mandarins",
+            "type": "fruit"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Parsnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Pears",
+            "type": "fruit"
+          },
+          {
+            "name": "Persimmons",
+            "type": "fruit"
+          },
+          {
+            "name": "Plums",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkins & gourds",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Rutabagas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Summer & Winter squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sunchokes",
+            "type": "fruit"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Walnuts",
+            "type": "fruit"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Grapefruit",
+            "type": "fruit"
+          },
+          {
+            "name": "Horseradish",
+            "type": "vegetable"
+          },
+          {
+            "name": "Kumquats",
+            "type": "fruit"
+          },
+          {
+            "name": "Leeks",
+            "type": "vegetable"
+          },
+          {
+            "name": "Mandarins",
+            "type": "fruit"
+          },
+          {
+            "name": "Oranges",
+            "type": "fruit"
+          },
+          {
+            "name": "Parsnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rutabagas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Salsify",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tangerines",
+            "type": "fruit"
+          },
+          {
+            "name": "Walnuts",
+            "type": "fruit"
+          }
+        ]
+      }
+    },
+    "north_central": {
+      "label": "North Central",
+      "states": [
+        "MT",
+        "WY",
+        "CO",
+        "ND",
+        "SD",
+        "NE",
+        "KS",
+        "MN",
+        "IA",
+        "MO"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Horseradish",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Parsnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Peas (late)",
+            "type": "vegetable"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Blackberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Blueberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Boysenberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cherries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Gooseberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Nectarines",
+            "type": "fruit"
+          },
+          {
+            "name": "Peaches",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Okra",
+            "type": "fruit"
+          },
+          {
+            "name": "Pears",
+            "type": "fruit"
+          },
+          {
+            "name": "Plums (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkins",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer & Winter squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Chicories",
+            "type": "vegetable"
+          },
+          {
+            "name": "Horseradish",
+            "type": "vegetable"
+          },
+          {
+            "name": "Salsify",
+            "type": "vegetable"
+          },
+          {
+            "name": "Winter squash (early)",
+            "type": "vegetable"
+          }
+        ]
+      }
+    },
+    "south_central": {
+      "label": "South Central",
+      "states": [
+        "NM",
+        "OK",
+        "TX",
+        "AR",
+        "LA"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Blackberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Blueberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cherries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Figs",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Nectarines",
+            "type": "fruit"
+          },
+          {
+            "name": "Okra",
+            "type": "fruit"
+          },
+          {
+            "name": "Peaches",
+            "type": "fruit"
+          },
+          {
+            "name": "Plums",
+            "type": "fruit"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer & Winter squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Figs",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapes & Muscadines",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Okra",
+            "type": "fruit"
+          },
+          {
+            "name": "Pears",
+            "type": "fruit"
+          },
+          {
+            "name": "Pecans",
+            "type": "fruit"
+          },
+          {
+            "name": "Persimmons",
+            "type": "fruit"
+          },
+          {
+            "name": "Pomegranates",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkins",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Chicories",
+            "type": "vegetable"
+          },
+          {
+            "name": "Grapefruit",
+            "type": "fruit"
+          },
+          {
+            "name": "Horseradish",
+            "type": "vegetable"
+          },
+          {
+            "name": "Kumquats",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Mandarins",
+            "type": "fruit"
+          },
+          {
+            "name": "Oranges",
+            "type": "fruit"
+          },
+          {
+            "name": "Pecans (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Salsify",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sunchokes",
+            "type": "fruit"
+          },
+          {
+            "name": "Tangerines",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ]
+      }
+    },
+    "great_lakes_midwest": {
+      "label": "Great Lakes, Ohio Valley, Midwest",
+      "states": [
+        "WI",
+        "MI",
+        "IL",
+        "IN",
+        "OH",
+        "KY"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Cabbage (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Parsnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Blackberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Blueberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cherries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Currants",
+            "type": "fruit"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Gooseberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Nectarines",
+            "type": "fruit"
+          },
+          {
+            "name": "Okra",
+            "type": "fruit"
+          },
+          {
+            "name": "Peaches",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Plums (late)",
+            "type": "fruit"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sunchokes",
+            "type": "fruit"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Leeks",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Parsnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Paw paws (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Pears",
+            "type": "fruit"
+          },
+          {
+            "name": "Plums",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkins",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rutabagas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sorghum",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer & Winter squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Chicories",
+            "type": "vegetable"
+          },
+          {
+            "name": "Horseradish",
+            "type": "vegetable"
+          },
+          {
+            "name": "Salsify",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potatoes (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Winter squash (early)",
+            "type": "vegetable"
+          }
+        ]
+      }
+    },
+    "northeast": {
+      "label": "Northeast and New England",
+      "states": [
+        "ME",
+        "VT",
+        "NH",
+        "MA",
+        "CT",
+        "RI",
+        "NY",
+        "NJ",
+        "PA",
+        "MD",
+        "DE"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Fiddleheads",
+            "type": "vegetable"
+          },
+          {
+            "name": "Garlic Scapes (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb (late)",
+            "type": "fruit"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Blackberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Blueberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cherries",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lima beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Nectarines",
+            "type": "fruit"
+          },
+          {
+            "name": "Peaches",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cranberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Grapes",
+            "type": "fruit"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Parsnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Pears",
+            "type": "fruit"
+          },
+          {
+            "name": "Plums",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkins & gourds",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rutabagas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sunchokes",
+            "type": "fruit"
+          },
+          {
+            "name": "Sweet potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Winter squash",
+            "type": "vegetable"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Brussels sprouts (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cranberries (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Horseradish",
+            "type": "vegetable"
+          },
+          {
+            "name": "Leeks (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Parsnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Salsify",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potatoes (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Winter squash (early)",
+            "type": "vegetable"
+          }
+        ]
+      }
+    },
+    "southeast": {
+      "label": "Southeast",
+      "states": [
+        "WV",
+        "VA",
+        "NC",
+        "SC",
+        "TN",
+        "GA",
+        "FL",
+        "AL",
+        "MS"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Asparagus",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb (late)",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Vidalia onions (late)",
+            "type": "vegetable"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Apples",
+            "type": "fruit"
+          },
+          {
+            "name": "Apricots",
+            "type": "fruit"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Blackberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Blueberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cherries",
+            "type": "fruit"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Grapes & Muscadines (late)",
+            "type": "fruit"
+          },
+          {
+            "name": "Key limes",
+            "type": "fruit"
+          },
+          {
+            "name": "Leeks",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lima beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Melons",
+            "type": "fruit"
+          },
+          {
+            "name": "Nectarines",
+            "type": "fruit"
+          },
+          {
+            "name": "Okra",
+            "type": "fruit"
+          },
+          {
+            "name": "Peaches",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Figs (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapefruit",
+            "type": "fruit"
+          },
+          {
+            "name": "Grapes & Muscadines",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Okra",
+            "type": "fruit"
+          },
+          {
+            "name": "Oranges",
+            "type": "fruit"
+          },
+          {
+            "name": "Paw paws",
+            "type": "vegetable"
+          },
+          {
+            "name": "Pears",
+            "type": "fruit"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Pecans",
+            "type": "fruit"
+          },
+          {
+            "name": "Persimmons",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkins",
+            "type": "vegetable"
+          },
+          {
+            "name": "Quince",
+            "type": "fruit"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rutabagas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Strawberries (late)",
+            "type": "fruit"
+          },
+          {
+            "name": "String beans (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Summer & winter squash",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet corn",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tangerines",
+            "type": "fruit"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Beets (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Grapefruit",
+            "type": "fruit"
+          },
+          {
+            "name": "Kumquats",
+            "type": "fruit"
+          },
+          {
+            "name": "Leeks",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuces & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Oranges",
+            "type": "fruit"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tangerines",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ]
+      }
+    },
+    "alaska": {
+      "label": "Alaska",
+      "states": [
+        "AK"
+      ],
+      "note": "Spring and Winter items are largely from cold storage.",
+      "seasons": {
+        "spring": [
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Carrots",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuce (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rhubarb (late)",
+            "type": "fruit"
+          },
+          {
+            "name": "Tomatoes (late)",
+            "type": "fruit"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Carrots (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Celery (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Chard",
+            "type": "vegetable"
+          },
+          {
+            "name": "Collard greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Kale",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuce",
+            "type": "vegetable"
+          },
+          {
+            "name": "Onions",
+            "type": "vegetable"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Spinach",
+            "type": "vegetable"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Winter squash (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Zucchini",
+            "type": "vegetable"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Broccoli",
+            "type": "vegetable"
+          },
+          {
+            "name": "Brussels sprouts (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Carrots (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cauliflower",
+            "type": "vegetable"
+          },
+          {
+            "name": "Celery (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Chard",
+            "type": "vegetable"
+          },
+          {
+            "name": "Collard greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumbers",
+            "type": "vegetable"
+          },
+          {
+            "name": "Kale",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuce",
+            "type": "vegetable"
+          },
+          {
+            "name": "Onions",
+            "type": "vegetable"
+          },
+          {
+            "name": "Peas",
+            "type": "vegetable"
+          },
+          {
+            "name": "Potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Radishes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Raspberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Rhubarb",
+            "type": "fruit"
+          },
+          {
+            "name": "Spinach",
+            "type": "vegetable"
+          },
+          {
+            "name": "Strawberries",
+            "type": "fruit"
+          },
+          {
+            "name": "Tomatoes",
+            "type": "fruit"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          },
+          {
+            "name": "Winter squash (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Zucchini",
+            "type": "vegetable"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Beets",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Carrots",
+            "type": "vegetable"
+          },
+          {
+            "name": "Onions",
+            "type": "vegetable"
+          },
+          {
+            "name": "Potatoes",
+            "type": "vegetable"
+          },
+          {
+            "name": "Turnips",
+            "type": "vegetable"
+          }
+        ]
+      }
+    },
+    "hawaii": {
+      "label": "Hawaii",
+      "states": [
+        "HI"
+      ],
+      "seasons": {
+        "spring": [
+          {
+            "name": "Beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Bittermelon",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cantaloupe",
+            "type": "fruit"
+          },
+          {
+            "name": "Celery",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumber",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant",
+            "type": "vegetable"
+          },
+          {
+            "name": "Ginger root",
+            "type": "vegetable"
+          },
+          {
+            "name": "Green pepper",
+            "type": "vegetable"
+          },
+          {
+            "name": "Heart of palm",
+            "type": "vegetable"
+          },
+          {
+            "name": "Honeydew",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuce & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lime",
+            "type": "fruit"
+          },
+          {
+            "name": "Lychee",
+            "type": "fruit"
+          },
+          {
+            "name": "Mango",
+            "type": "fruit"
+          },
+          {
+            "name": "Mushrooms",
+            "type": "vegetable"
+          },
+          {
+            "name": "Onion",
+            "type": "vegetable"
+          },
+          {
+            "name": "Orange",
+            "type": "fruit"
+          },
+          {
+            "name": "Papaya",
+            "type": "fruit"
+          },
+          {
+            "name": "Pineapple",
+            "type": "fruit"
+          },
+          {
+            "name": "Sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Strawberry",
+            "type": "fruit"
+          },
+          {
+            "name": "Sweet potato",
+            "type": "vegetable"
+          },
+          {
+            "name": "Taro",
+            "type": "vegetable"
+          }
+        ],
+        "summer": [
+          {
+            "name": "Banana",
+            "type": "fruit"
+          },
+          {
+            "name": "Beans",
+            "type": "vegetable"
+          },
+          {
+            "name": "Bittermelon",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cabbage",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cantaloupe",
+            "type": "fruit"
+          },
+          {
+            "name": "Celery",
+            "type": "vegetable"
+          },
+          {
+            "name": "Cucumber",
+            "type": "vegetable"
+          },
+          {
+            "name": "Daikon (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Eggplant (early)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Ginger root",
+            "type": "vegetable"
+          },
+          {
+            "name": "Green onion",
+            "type": "vegetable"
+          },
+          {
+            "name": "Green pepper",
+            "type": "vegetable"
+          },
+          {
+            "name": "Heart of palm",
+            "type": "vegetable"
+          },
+          {
+            "name": "Honeydew",
+            "type": "fruit"
+          },
+          {
+            "name": "Lettuce & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lime",
+            "type": "fruit"
+          },
+          {
+            "name": "Lychee",
+            "type": "fruit"
+          },
+          {
+            "name": "Mango",
+            "type": "fruit"
+          },
+          {
+            "name": "Mushrooms",
+            "type": "vegetable"
+          },
+          {
+            "name": "Onion",
+            "type": "vegetable"
+          },
+          {
+            "name": "Papaya",
+            "type": "fruit"
+          },
+          {
+            "name": "Pineapple",
+            "type": "fruit"
+          },
+          {
+            "name": "Sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sweet potato",
+            "type": "vegetable"
+          },
+          {
+            "name": "Taro",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomato",
+            "type": "fruit"
+          },
+          {
+            "name": "Watermelon",
+            "type": "fruit"
+          },
+          {
+            "name": "Zucchini (late)",
+            "type": "vegetable"
+          }
+        ],
+        "fall": [
+          {
+            "name": "Banana",
+            "type": "fruit"
+          },
+          {
+            "name": "Burdock",
+            "type": "vegetable"
+          },
+          {
+            "name": "Daikon",
+            "type": "vegetable"
+          },
+          {
+            "name": "Green onion",
+            "type": "vegetable"
+          },
+          {
+            "name": "Heart of palm",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuce & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lime",
+            "type": "fruit"
+          },
+          {
+            "name": "Longan",
+            "type": "fruit"
+          },
+          {
+            "name": "Mango",
+            "type": "fruit"
+          },
+          {
+            "name": "Mushrooms",
+            "type": "vegetable"
+          },
+          {
+            "name": "Orange",
+            "type": "fruit"
+          },
+          {
+            "name": "Papaya (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Persimmon",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkin",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Tomato (early)",
+            "type": "fruit"
+          },
+          {
+            "name": "Zucchini",
+            "type": "vegetable"
+          }
+        ],
+        "winter": [
+          {
+            "name": "Atemoya",
+            "type": "fruit"
+          },
+          {
+            "name": "Avocado",
+            "type": "fruit"
+          },
+          {
+            "name": "Burdock",
+            "type": "vegetable"
+          },
+          {
+            "name": "Heart of palm",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lettuce & greens",
+            "type": "vegetable"
+          },
+          {
+            "name": "Lime",
+            "type": "fruit"
+          },
+          {
+            "name": "Mushrooms",
+            "type": "vegetable"
+          },
+          {
+            "name": "Orange",
+            "type": "fruit"
+          },
+          {
+            "name": "Pumpkin",
+            "type": "vegetable"
+          },
+          {
+            "name": "Rambutan (late)",
+            "type": "vegetable"
+          },
+          {
+            "name": "Sprouts",
+            "type": "vegetable"
+          },
+          {
+            "name": "Strawberry",
+            "type": "fruit"
+          },
+          {
+            "name": "Tangerine",
+            "type": "fruit"
+          }
+        ]
+      }
+    }
+  }
+}
