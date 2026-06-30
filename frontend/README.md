@@ -1,8 +1,8 @@
 # Seasonal Fruits — Frontend
 
 A single-page Next.js app that shows which fruits and vegetables are in season
-right now, filtered by your region. Each item has a photo (or illustration) and
-a quick tip for picking good ones.
+right now, filtered by your region. Each item has a photo and a quick tip for
+picking good ones.
 
 ## Stack
 
@@ -36,9 +36,3 @@ GET /produce?region={id}
 `produce` should already be filtered to what's in season for the current month
 in the requested region. See `src/data/produce.ts` for the `Produce` shape and
 `src/data/regions.ts` for valid region ids.
-
-## Image modes
-
-The card style toggle (Photos / Illustrated) is intentional: it lets you compare
-real keyword-based photos against emoji illustrations and choose the final look.
-Once decided, drop the unused mode and the toggle.

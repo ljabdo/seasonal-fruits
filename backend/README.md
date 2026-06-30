@@ -25,7 +25,6 @@ Response:
       "id": "apricots",
       "name": "Apricots",
       "type": "fruit",
-      "emoji": "🍑",
       "imageUrl": "/produce/apricot.jpg",
       "description": "Apricots is in season this summer in Southern California.",
       "seasons": ["summer"],
@@ -65,15 +64,13 @@ See `.env.example`:
 ## Data source & known limitations
 
 Data comes from the USDA/ACL "Seasonal Produce List by Region" chart
-(`data/seasonal_produce.json`, a copy of the repo's top-level file). Because that chart
-only lists each item's name and type, this service **synthesizes** the presentation
-fields the UI needs:
+(`data/seasonal_produce.json`). Because that chart only lists each item's name and type,
+this service **synthesizes** the presentation fields the UI needs:
 
-- **`emoji`** — hand-authored lookup (`app/enrich.py`), neutral 🧺 fallback.
 - **`imageUrl`** — root-relative path (default `/produce/<file>`) to a photo bundled in
   the frontend's `public/produce/` directory. Every item in the chart has a downloaded
-  photo (originally from Spoonacular / Wikimedia Commons); one rare item (atemoya) uses
-  a bundled placeholder. Nothing is fetched from the web at runtime.
+  photo (originally from Spoonacular / Wikimedia Commons). Nothing is fetched from the
+  web at runtime.
 - **`description`** — generated sentence.
 
 The chart's region taxonomy differs from the frontend's, so regions are mapped to the

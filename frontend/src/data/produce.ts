@@ -7,7 +7,6 @@ export interface Produce {
   id: string;
   name: string;
   type: ProduceType;
-  emoji: string;
   imageUrl: string;
   description: string;
   seasons: Season[];
@@ -16,13 +15,9 @@ export interface Produce {
 
 // Photos are bundled locally under public/produce/ (downloaded from Spoonacular's
 // ingredient CDN and Wikimedia Commons) and served same-origin — nothing is fetched
-// from the web at runtime. Both helpers just point at that local directory.
+// from the web at runtime.
 function photo(file: string): string {
   return `/produce/${file}`;
-}
-
-function wiki(file: string): string {
-  return `/produce/${file.toLowerCase()}`;
 }
 
 const ALL_MAINLAND: RegionId[] = [
@@ -40,7 +35,6 @@ export const PRODUCE: Produce[] = [
     id: "strawberry",
     name: "Strawberry",
     type: "fruit",
-    emoji: "🍓",
     imageUrl: photo("strawberries.jpg"),
     description:
       "Pick berries that are fully red to the stem — strawberries stop ripening the moment they're picked.",
@@ -51,7 +45,6 @@ export const PRODUCE: Produce[] = [
     id: "watermelon",
     name: "Watermelon",
     type: "fruit",
-    emoji: "🍉",
     imageUrl: photo("watermelon.jpg"),
     description:
       "A creamy-yellow patch where it rested on the ground means it ripened in the field, not on a truck.",
@@ -62,7 +55,6 @@ export const PRODUCE: Produce[] = [
     id: "peach",
     name: "Peach",
     type: "fruit",
-    emoji: "🍑",
     imageUrl: photo("peaches.jpg"),
     description:
       "Smell the stem end — a ripe peach is fragrant and gives slightly to a gentle press.",
@@ -73,7 +65,6 @@ export const PRODUCE: Produce[] = [
     id: "cherry",
     name: "Cherry",
     type: "fruit",
-    emoji: "🍒",
     imageUrl: photo("cherries.jpg"),
     description:
       "Look for firm, glossy fruit with green, flexible stems still attached. The season is short, so don't wait.",
@@ -84,7 +75,6 @@ export const PRODUCE: Produce[] = [
     id: "blueberry",
     name: "Blueberry",
     type: "fruit",
-    emoji: "🫐",
     imageUrl: photo("blueberries.jpg"),
     description:
       "A silvery, dusty bloom on the skin is a good sign — it's natural and means they haven't been handled much.",
@@ -95,7 +85,6 @@ export const PRODUCE: Produce[] = [
     id: "apricot",
     name: "Apricot",
     type: "fruit",
-    emoji: "🍑",
     imageUrl: photo("apricot.jpg"),
     description:
       "Apricots ripen only on the tree. Choose deep-orange, fragrant fruit with no green tinge.",
@@ -106,8 +95,7 @@ export const PRODUCE: Produce[] = [
     id: "fig",
     name: "Fig",
     type: "fruit",
-    emoji: "🪻",
-    imageUrl: wiki("Figs.jpg"),
+    imageUrl: photo("figs.jpg"),
     description:
       "Ripe figs are soft, heavy, and may bead a drop of nectar at the base. They bruise fast, so handle gently.",
     seasons: ["summer", "fall"],
@@ -117,7 +105,6 @@ export const PRODUCE: Produce[] = [
     id: "grape",
     name: "Grape",
     type: "fruit",
-    emoji: "🍇",
     imageUrl: photo("red-grapes.jpg"),
     description:
       "Grapes won't sweeten after picking. Look for plump fruit firmly attached to green, pliable stems.",
@@ -128,7 +115,6 @@ export const PRODUCE: Produce[] = [
     id: "plum",
     name: "Plum",
     type: "fruit",
-    emoji: "🍑",
     imageUrl: photo("plum.jpg"),
     description:
       "A ripe plum yields slightly at the tip. The white bloom on the skin is natural and worth keeping.",
@@ -139,7 +125,6 @@ export const PRODUCE: Produce[] = [
     id: "raspberry",
     name: "Raspberry",
     type: "fruit",
-    emoji: "🍇",
     imageUrl: photo("raspberries.jpg"),
     description:
       "Check the bottom of the carton for stains — a sign of crushed fruit underneath. Eat within a day or two.",
@@ -150,7 +135,6 @@ export const PRODUCE: Produce[] = [
     id: "cantaloupe",
     name: "Cantaloupe",
     type: "fruit",
-    emoji: "🍈",
     imageUrl: photo("cantaloupe.jpg"),
     description:
       "Ripe melons smell sweet at the stem end and feel heavy for their size, with a slight give where the vine attached.",
@@ -161,7 +145,6 @@ export const PRODUCE: Produce[] = [
     id: "apple",
     name: "Apple",
     type: "fruit",
-    emoji: "🍎",
     imageUrl: photo("apple.jpg"),
     description:
       "There are more than 7,500 varieties worldwide. Choose firm fruit with taut, unbruised skin.",
@@ -172,7 +155,6 @@ export const PRODUCE: Produce[] = [
     id: "pear",
     name: "Pear",
     type: "fruit",
-    emoji: "🍐",
     imageUrl: photo("pear.jpg"),
     description:
       "Pears ripen from the inside out. Buy them firm and let them soften at the neck on the counter.",
@@ -183,7 +165,6 @@ export const PRODUCE: Produce[] = [
     id: "pomegranate",
     name: "Pomegranate",
     type: "fruit",
-    emoji: "🔴",
     imageUrl: photo("pomegranate.jpg"),
     description:
       "Heavier fruit holds more juice. Look for a deep color and a leathery skin that's taut, not shriveled.",
@@ -194,7 +175,6 @@ export const PRODUCE: Produce[] = [
     id: "orange",
     name: "Orange",
     type: "fruit",
-    emoji: "🍊",
     imageUrl: photo("orange.jpg"),
     description:
       "Skin color isn't a ripeness cue for citrus. Pick fruit that feels heavy and firm for its size.",
@@ -205,7 +185,6 @@ export const PRODUCE: Produce[] = [
     id: "cranberry",
     name: "Cranberry",
     type: "fruit",
-    emoji: "🔴",
     imageUrl: photo("cranberries.jpg"),
     description:
       "Fresh cranberries should be firm and bounce. Discard any that are soft, sticky, or shriveled.",
@@ -216,7 +195,6 @@ export const PRODUCE: Produce[] = [
     id: "rhubarb",
     name: "Rhubarb",
     type: "fruit",
-    emoji: "🌹",
     imageUrl: photo("rhubarb.jpg"),
     description:
       "Choose firm, crisp stalks. The leaves are toxic, so trim them off — only the stalk is eaten.",
@@ -227,7 +205,6 @@ export const PRODUCE: Produce[] = [
     id: "mango",
     name: "Mango",
     type: "fruit",
-    emoji: "🥭",
     imageUrl: photo("mango.jpg"),
     description:
       "Judge by feel and smell, not color. A ripe mango gives gently and is fragrant at the stem.",
@@ -238,7 +215,6 @@ export const PRODUCE: Produce[] = [
     id: "pineapple",
     name: "Pineapple",
     type: "fruit",
-    emoji: "🍍",
     imageUrl: photo("pineapple.jpg"),
     description:
       "Pineapple won't get sweeter after harvest. Pick one that's fragrant at the base and heavy for its size.",
@@ -249,7 +225,6 @@ export const PRODUCE: Produce[] = [
     id: "papaya",
     name: "Papaya",
     type: "fruit",
-    emoji: "🟠",
     imageUrl: photo("papaya.jpg"),
     description:
       "Ready to eat when the skin is mostly yellow-orange and yields to gentle pressure. Let green ones ripen at home.",
@@ -260,7 +235,6 @@ export const PRODUCE: Produce[] = [
     id: "avocado",
     name: "Avocado",
     type: "fruit",
-    emoji: "🥑",
     imageUrl: photo("avocado.jpg"),
     description:
       "Pop off the small stem nub — green underneath means ready, brown means overripe.",
@@ -271,7 +245,6 @@ export const PRODUCE: Produce[] = [
     id: "banana",
     name: "Banana",
     type: "fruit",
-    emoji: "🍌",
     imageUrl: photo("bananas.jpg"),
     description:
       "Small flecks of brown signal peak sweetness. Buy a mix of green and yellow to ripen over the week.",
@@ -282,7 +255,6 @@ export const PRODUCE: Produce[] = [
     id: "asparagus",
     name: "Asparagus",
     type: "vegetable",
-    emoji: "🌱",
     imageUrl: photo("asparagus.jpg"),
     description:
       "Look for the thinnest stalks with tightly closed tips. Steer clear of any that are limp or wilted.",
@@ -293,7 +265,6 @@ export const PRODUCE: Produce[] = [
     id: "tomato",
     name: "Tomato",
     type: "vegetable",
-    emoji: "🍅",
     imageUrl: photo("tomato.jpg"),
     description:
       "The best tomatoes smell like the vine at the stem. Keep them on the counter — the fridge kills the flavor.",
@@ -304,7 +275,6 @@ export const PRODUCE: Produce[] = [
     id: "sweet-corn",
     name: "Sweet Corn",
     type: "vegetable",
-    emoji: "🌽",
     imageUrl: photo("corn-on-the-cob.jpg"),
     description:
       "Sugar turns to starch within hours of picking. Buy it the day you'll eat it and look for plump, milky kernels.",
@@ -315,7 +285,6 @@ export const PRODUCE: Produce[] = [
     id: "zucchini",
     name: "Zucchini",
     type: "vegetable",
-    emoji: "🥒",
     imageUrl: photo("zucchini.jpg"),
     description:
       "Smaller squash are sweeter and more tender. The skin should be glossy and firm, never spongy.",
@@ -326,7 +295,6 @@ export const PRODUCE: Produce[] = [
     id: "bell-pepper",
     name: "Bell Pepper",
     type: "vegetable",
-    emoji: "🫑",
     imageUrl: photo("bell-pepper-orange.jpg"),
     description:
       "Heavy, firm peppers with taut skin are freshest. Red and orange are simply ripened-on longer than green.",
@@ -337,7 +305,6 @@ export const PRODUCE: Produce[] = [
     id: "beet",
     name: "Beet",
     type: "vegetable",
-    emoji: "🟣",
     imageUrl: photo("beets.jpg"),
     description:
       "Smaller roots are sweeter and more tender. Fresh, perky greens on top mean a recent harvest — cook them too.",
@@ -348,7 +315,6 @@ export const PRODUCE: Produce[] = [
     id: "kale",
     name: "Kale",
     type: "vegetable",
-    emoji: "🥬",
     imageUrl: photo("kale.jpg"),
     description:
       "A touch of frost makes kale sweeter. Choose deeply colored, crisp leaves with no yellowing.",
@@ -359,7 +325,6 @@ export const PRODUCE: Produce[] = [
     id: "brussels-sprouts",
     name: "Brussels Sprouts",
     type: "vegetable",
-    emoji: "🥬",
     imageUrl: photo("brussels-sprouts.jpg"),
     description:
       "Sold on the stalk, they keep longest. Pick tight, bright-green heads — smaller ones are milder and sweeter.",
@@ -370,7 +335,6 @@ export const PRODUCE: Produce[] = [
     id: "sweet-potato",
     name: "Sweet Potato",
     type: "vegetable",
-    emoji: "🍠",
     imageUrl: photo("sweet-potato.jpg"),
     description:
       "Choose firm roots with smooth skin and no soft spots. Store them cool and dry, never in the fridge.",
@@ -381,7 +345,6 @@ export const PRODUCE: Produce[] = [
     id: "butternut-squash",
     name: "Butternut Squash",
     type: "vegetable",
-    emoji: "🎃",
     imageUrl: photo("butternut-squash.jpg"),
     description:
       "A matte, hard rind and a dry stem mean it's cured and will keep for months in a cool pantry.",
@@ -392,7 +355,6 @@ export const PRODUCE: Produce[] = [
     id: "pumpkin",
     name: "Pumpkin",
     type: "vegetable",
-    emoji: "🎃",
     imageUrl: photo("pumpkin.jpg"),
     description:
       "For cooking, choose smaller sugar pumpkins — the big carving kind are stringy and watery. Keep the stem intact.",
@@ -403,7 +365,6 @@ export const PRODUCE: Produce[] = [
     id: "artichoke",
     name: "Artichoke",
     type: "vegetable",
-    emoji: "🌿",
     imageUrl: photo("artichokes.jpg"),
     description:
       "Look for a firm bulb with tightly closed leaves. Discoloration on the outer petals is usually harmless frost damage.",
@@ -414,7 +375,6 @@ export const PRODUCE: Produce[] = [
     id: "arugula",
     name: "Arugula",
     type: "vegetable",
-    emoji: "🌿",
     imageUrl: photo("arugula-or-rocket-salad.jpg"),
     description:
       "Like most tender greens, arugula is perishable. Look for crisp, dry leaves and use within a few days.",
@@ -425,7 +385,6 @@ export const PRODUCE: Produce[] = [
     id: "carrot",
     name: "Carrot",
     type: "vegetable",
-    emoji: "🥕",
     imageUrl: photo("carrots.jpg"),
     description:
       "Smooth, firm roots without cracks are freshest. If the greens are attached, twist them off so they don't draw moisture.",
@@ -436,7 +395,6 @@ export const PRODUCE: Produce[] = [
     id: "spinach",
     name: "Spinach",
     type: "vegetable",
-    emoji: "🥬",
     imageUrl: photo("spinach.jpg"),
     description:
       "Choose springy, deep-green leaves. Pass on any bunch that looks slimy, yellowed, or wilted.",

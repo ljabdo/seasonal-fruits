@@ -1,15 +1,11 @@
 """Synthesizes the presentation fields the frontend's ProduceCard needs but that the
-source `seasonal_produce.json` lacks: emoji, image URL, description, and a slug id.
+source `seasonal_produce.json` lacks: image URL, description, and a slug id.
 
-The maps are keyed by the produce's *base name* (qualifiers like "(early)"/"(late)"
-stripped, lowercased). They're hand-authored:
-
-  - EMOJI:    a single emoji per item; falls back to a neutral basket.
-  - IMG_FILE: the filename of a locally-bundled photo. Every produce item in the source
-              chart has a matching image downloaded into the frontend's
-              public/produce/ directory (originally from Spoonacular / Wikimedia Commons);
-              one rare item (atemoya) uses a bundled placeholder. Unmatched names fall
-              back to a slug guess.
+IMG_FILE is keyed by the produce's *base name* (qualifiers like "(early)"/"(late)"
+stripped, lowercased) and maps to the filename of a locally-bundled photo. Every
+produce item in the source chart has a matching image in the frontend's public/produce/
+directory (originally from Spoonacular / Wikimedia Commons); unmatched names fall back
+to a slug guess.
 
 Image URLs are root-relative (e.g. "/produce/strawberries.jpg") so the browser loads
 them same-origin from the frontend — nothing is fetched from the web at runtime.
@@ -23,46 +19,6 @@ import re
 # root-relative so it resolves against the page origin. Override with IMAGE_BASE_URL
 # if the images are hosted elsewhere.
 _IMAGE_BASE = os.getenv("IMAGE_BASE_URL", "/produce").rstrip("/")
-_PLACEHOLDER = "_placeholder.jpg"
-_FALLBACK_EMOJI = "\U0001f9fa"  # 🧺
-
-EMOJI: dict[str, str] = {
-    "almonds": "🌰", "apples": "🍎", "apricots": "🍑", "artichokes": "🌿",
-    "arugula": "🌿", "asparagus": "🌱", "atemoya": "🍈", "avocado": "🥑",
-    "banana": "🍌", "beans": "🫘", "beets": "🟣", "bell pepper": "🫑",
-    "bittermelon": "🥒", "blackberries": "🫐", "blueberries": "🫐",
-    "boysenberries": "🫐", "broccoli": "🥦", "brussels sprouts": "🥬",
-    "burdock": "🥕", "butternut squash": "🎃", "cabbage": "🥬",
-    "cantaloupe": "🍈", "carrot": "🥕", "carrots": "🥕", "cauliflower": "🥦",
-    "celery": "🥬", "chard": "🥬", "cherries": "🍒", "chicories": "🥬",
-    "collard greens": "🥬", "cranberries": "🔴", "cucumber": "🥒",
-    "cucumbers": "🥒", "currants": "🍇", "daikon": "🥕", "dates": "🌰",
-    "eggplant": "🍆", "fiddleheads": "🌿", "figs": "🪻", "garlic scapes": "🧄",
-    "ginger root": "🫚", "gooseberries": "🫐", "grapefruit": "🍊",
-    "grapes": "🍇", "grapes & muscadines": "🍇", "green onion": "🧅",
-    "green pepper": "🫑", "heart of palm": "🌴", "honeydew": "🍈",
-    "horseradish": "🥕", "kale": "🥬", "key limes": "🍈", "kumquats": "🍊",
-    "leeks": "🧅", "lettuce": "🥬", "lettuce & greens": "🥬",
-    "lettuces": "🥬", "lettuces & greens": "🥬", "lima beans": "🫘",
-    "lime": "🍈", "longan": "🍈", "lychee": "🍈", "mandarins": "🍊",
-    "mango": "🥭", "melons": "🍈", "mushrooms": "🍄", "nectarines": "🍑",
-    "okra": "🌿", "onion": "🧅", "onions": "🧅", "orange": "🍊",
-    "oranges": "🍊", "papaya": "🟠", "parsnips": "🥕", "paw paws": "🥭",
-    "peaches": "🍑", "pears": "🍐", "peas": "🌱", "pecans": "🌰",
-    "persimmon": "🟠", "persimmons": "🟠", "pineapple": "🍍",
-    "plantains": "🍌", "plums": "🍑", "pomegranates": "🔴", "potatoes": "🥔",
-    "pumpkin": "🎃", "pumpkins": "🎃", "pumpkins & gourds": "🎃",
-    "pumpkins and gourds": "🎃", "quince": "🍐", "radishes": "🌶️",
-    "rambutan": "🍈", "raspberries": "🍇", "rhubarb": "🌹", "rutabagas": "🥔",
-    "salsify": "🥕", "sorghum": "🌾", "spinach": "🥬", "sprouts": "🌱",
-    "squash": "🎃", "strawberries": "🍓", "strawberry": "🍓",
-    "string beans": "🫛", "summer squash": "🥒", "summer & winter squash": "🎃",
-    "sunchokes": "🥔", "sweet corn": "🌽", "sweet potato": "🍠",
-    "sweet potatoes": "🍠", "tangerine": "🍊", "tangerines": "🍊",
-    "taro": "🥔", "tomato": "🍅", "tomatoes": "🍅", "turnips": "🥔",
-    "vidalia onions": "🧅", "walnuts": "🌰", "watermelon": "🍉",
-    "winter squash": "🎃", "zucchini": "🥒",
-}
 
 # Spoonacular ingredient filenames. Entries reuse names known to exist on the CDN
 # (notably the ones the frontend's curated dataset already relies on).
@@ -125,10 +81,6 @@ def base_name(name: str) -> str:
 def slug(name: str) -> str:
     base = base_name(name)
     return re.sub(r"[^a-z0-9]+", "-", base).strip("-")
-
-
-def emoji_for(name: str) -> str:
-    return EMOJI.get(base_name(name), _FALLBACK_EMOJI)
 
 
 def image_url_for(name: str) -> str:

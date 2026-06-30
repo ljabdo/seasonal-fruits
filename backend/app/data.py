@@ -75,7 +75,6 @@ def _to_produce(item: dict, json_key: str, season: str, region_label: str) -> di
         "id": enrich.slug(name),
         "name": name,
         "type": item["type"],
-        "emoji": enrich.emoji_for(name),
         "imageUrl": enrich.image_url_for(name),
         "description": enrich.description_for(name, season, region_label),
         "seasons": _seasons_in_region(json_key, name),

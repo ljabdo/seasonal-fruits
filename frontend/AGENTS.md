@@ -6,8 +6,8 @@ Node 20+.) Nothing exotic here — the usual App Router conventions apply.
 
 ## Layout
 
-- `src/app/page.tsx` — single-page client component; owns region + image-mode
-  state, fetches via SWR.
+- `src/app/page.tsx` — single-page client component; owns region state, fetches
+  via SWR.
 - `src/app/api/produce/route.ts` — stand-in backend. Serves the curated dataset
   filtered by current season + region until a real backend exists.
 - `src/lib/api.ts` — typed client. Reads `NEXT_PUBLIC_API_URL`; blank → same-origin

@@ -1,14 +1,7 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  images: {
-    remotePatterns: [
-      // Produce photos for Photo mode.
-      { protocol: "https", hostname: "img.spoonacular.com" },
-      { protocol: "https", hostname: "commons.wikimedia.org" },
-      { protocol: "https", hostname: "upload.wikimedia.org" },
-    ],
-  },
-};
+// Produce photos are bundled under public/produce/ and served same-origin, so no
+// remote image hosts are configured.
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
